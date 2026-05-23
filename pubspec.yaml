@@ -1,0 +1,48 @@
+name: seykoc_app
+description: "Seykoc A.S. Kurumsal Ic Iletisim ve Sosyal Ag Uygulamasi"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # State Management & Services
+  provider: ^6.1.2
+  intl: ^0.19.0
+
+  # Firebase (User will customize the configurations)
+  firebase_core: ^3.15.0
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.4.0
+  firebase_crashlytics: ^4.3.0
+
+  # Modern UI Elements
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
